@@ -44,7 +44,13 @@
             <section class="hero">
                 <div class="container hero-box">
                     <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-                        <button type="button" class="button-one">Заказать услугу</button>
+                    <button data-modal-open type="button" class="button-one">Заказать услугу</button>
+                    <div class="bacground is-hidden" data-modal>
+                        <div class="modal">
+                            <p>Information</p>
+                            <button data-modal-close>Закрыть</button>
+                        </div>
+                    </div>
                 </div>
             </section>
             
@@ -384,7 +390,7 @@
                         </ul>
                     </div>
                     <div class="address-box">
-                            <p class="join">присоединяйтесь</p>
+                            <p class="join">Присоединяйтесь</p>
                             <ul class="svg-icon">
                                 <li class="svg-list-link">
                                     <a href="" class="svg-list-item"> 
@@ -422,5 +428,10 @@
             
             
         </footer>
+
+        <script>
+            scr="./js/modal.js"
+        </script>
+
     </body>
 </html>
