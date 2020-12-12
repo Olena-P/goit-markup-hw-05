@@ -743,7 +743,7 @@ img{
 .flex-element{
     width: 370px;
     margin-bottom: 30px;
-    border-radius: 1px solid #eeeeee;
+    border: 1px solid #eeeeee;
 }
 
 .flex-element:nth-child(3n){
